@@ -1,0 +1,41 @@
+{
+  "name": "adrian-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "webpack -w "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Team-10-Thors-Hammer/adrian-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Team-10-Thors-Hammer/adrian-proxy/issues"
+  },
+  "homepage": "https://github.com/Team-10-Thors-Hammer/adrian-proxy#readme",
+  "dependencies": {
+    "@babel/cli": "^7.0.0-beta.40",
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@babel/preset-react": "^7.0.0-beta.40",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.2",
+    "express": "^4.17.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1",
+    "webpack": "^5.17.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.11",
+    "cors": "^2.8.5",
+    "css-loader": "^5.0.1",
+    "style-loader": "^2.0.0",
+    "webpack-cli": "^4.4.0"
+  }
+}
