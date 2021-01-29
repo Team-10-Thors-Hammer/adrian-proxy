@@ -1,14 +1,17 @@
 #berret{
     position: relative;
-    top: -35rem;
+    top: -15rem;
+}
+
+#nav {
+width: 100%
 }
 
 #minh{
     position: relative;
-    top: -30rem;
+    top: -5rem;
 }
 
 #adrian{
-    position: relative;
-    top:-70rem;
+
 }

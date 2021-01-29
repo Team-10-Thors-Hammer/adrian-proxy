@@ -1,16 +1,18 @@
-FROM NODE:16
+FROM node:10.19.0
 
 
-RUN MKDIR ./app
+RUN mkdir ./app
 
-COPY ./ ./app
+COPY . ./app
 
-WORKDIR ./APP
-
-
-
-RUN npm INSTALL
+WORKDIR /app
 
 
+
+RUN npm install
+
+
+
+EXPOSE 3000
 
 CMD ["node", "server.js"]
